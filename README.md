@@ -2,7 +2,9 @@
 
 This README is for mostly personal use to note and remember things on the fly as I learn.
 
-I decided to write test agains a simple demo banking site -> https://demo-bank.vercel.app/ to use various scenarios.
+I decided to write test agains a simple demo banking site to be able to use various scenarios.
+
+The SUT is https://demo-bank.vercel.app/
 
 The repo will be updated as I write more tests.
 
