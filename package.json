@@ -1,0 +1,22 @@
+{
+  "name": "demo-bank-testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/majortom247/demo-bank-testing.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/majortom247/demo-bank-testing/issues"
+  },
+  "homepage": "https://github.com/majortom247/demo-bank-testing#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.40.0",
+    "@types/node": "^20.9.5"
+  }
+}
