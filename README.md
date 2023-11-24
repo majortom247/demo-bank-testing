@@ -15,9 +15,8 @@ The repo will be updated as I write more tests.
 `npx playwright codegen https://demo-bank.vercel.app/`
 - run tests without browser GUI  
 `npx playwright test`
-- run tests with browser GUI  
-`npx playwright test --headed`
-- run tests with browser GUI in debug mode (step by step testing for debugging) 
+- run tests with browser GUI  `npx playwright test --headed`
+- run tests with browser GUI in debug mode (step by step testing for debugging)  
 `npx playwright test --debug`
 - view report  
 `npx playwright show-report`
