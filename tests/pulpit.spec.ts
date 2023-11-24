@@ -18,7 +18,7 @@ test.describe('Pulpit tests', () => {
         await page.getByTestId('close-button').click();
         // await page.getByRole('link', { name: 'Przelew wykonany! Chuck Demobankowy - 159,00PLN - zwrot środków' }).click();
 
-        // flaky ?
+        // flaky on some browsers ? to be verified
         // await expect(page.locator('#show_messages')).toHaveText('Przelew wykonany! Chuck Demobankowy - 159,00PLN - zwrot środków');
 
         await expect(page.getByTestId('message-text')).toHaveText('Przelew wykonany! Chuck Demobankowy - 159,00PLN - zwrot środków');
